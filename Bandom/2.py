@@ -1,0 +1,1 @@
+print ('Laba diena kalba 2')

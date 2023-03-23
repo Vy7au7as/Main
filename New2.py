@@ -1,0 +1,1 @@
+print ('viso gero New projektas')
