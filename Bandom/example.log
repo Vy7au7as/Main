@@ -1,0 +1,47 @@
+INFO:root:Skaiciu (1, 2, 3, 4, 5) suma lygi: 15
+INFO:root:16 saknis lygi: 4.0
+INFO:root:Sakinio simboliu kiekis: 14
+INFO:root:10 padalinta is 2 lygu: 5.0
+INFO:root:Skaiciu (1, 2, 3, 4, 5) suma lygi: 15
+INFO:root:16 saknis lygi: 4.0
+INFO:root:Sakinio simboliu kiekis: 14
+INFO:root:10 padalinta is 2 lygu: 5.0
+INFO:root:Skaiciu (1, 2, 3, 4, 5) suma lygi: 15
+INFO:root:16 saknis lygi: 4.0
+ERROR:root:Klaida: could not convert string to float: 'a' - a negalima paversti \u012f skai\u010di\u0173
+Traceback (most recent call last):
+  File "C:\Users\PC\PycharmProjects\pythonProject\Bandom\loger2u.py", line 13, in square_root
+    result = math.sqrt(float(num))
+                       ^^^^^^^^^^
+ValueError: could not convert string to float: 'a'
+INFO:root:Sakinio simboliu kiekis: 14
+INFO:root:10 padalinta is 2 lygu: 5.0
+ERROR:root:Klaida: division by zero - negalima dalinti iš nulio
+Traceback (most recent call last):
+  File "C:\Users\PC\PycharmProjects\pythonProject\Bandom\loger2u.py", line 27, in divide
+    result = x / y
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO:root:Skaiciu (1, 2, 3, 4, 5) suma lygi: 15
+ERROR:root:Klaida: could not convert string to float: 'a'
+Traceback (most recent call last):
+  File "C:\Users\PC\PycharmProjects\pythonProject\Bandom\loger3u.py", line 13, in sqrt_num
+    result = math.sqrt(float(num))
+                       ^^^^^^^^^^
+ValueError: could not convert string to float: 'a'
+INFO:root:Skaiciu (1, 2, 3, 4, 5) suma lygi: 15
+INFO:root:Skaiciu (1, 2, 3, 4, 5) suma lygi: 15
+ERROR:root:Klaida: could not convert string to float: 'a'
+Traceback (most recent call last):
+  File "C:\Users\PC\PycharmProjects\pythonProject\Bandom\loger3u.py", line 14, in sqrt_num
+    result = math.sqrt(float(num))
+                       ^^^^^^^^^^
+ValueError: could not convert string to float: 'a'
+INFO:root:Sakinio simboliu kiekis: 19
+INFO:root:10 padalinta is 2 lygu: 5.0
+ERROR:root:Klaida: division by zero
+Traceback (most recent call last):
+  File "C:\Users\PC\PycharmProjects\pythonProject\Bandom\loger3u.py", line 27, in divide
+    result = x / y
+             ~~^~~
+ZeroDivisionError: division by zero
