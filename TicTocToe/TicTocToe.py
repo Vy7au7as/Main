@@ -46,4 +46,4 @@ index = 3
 if index < len(my_list):
     print(my_list[index - 1])
 else:
-    print("Žaidimo pabaiga")
+    print("Žaidimas baigtas")
