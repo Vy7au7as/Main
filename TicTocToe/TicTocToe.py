@@ -25,7 +25,7 @@ class TicTacToe:
 
     def play_game(self):
         while not self.winner:
-            print(f"Žaidėjas {self.current_player}, įveskite eilutės ir stulpelio nr. (su tarpu tarp sk.pvz.: 2 2):")
+            print(f"Žaidėjas {self.current_player}, įveskite eilutės ir stulpelio nr.nuo 1 iki 3 (su tarpu tarp sk.pvz.: 2 2):")
             try:
                 row, col = [int(x) - 1 for x in input().split()]
             except ValueError:
@@ -42,10 +42,7 @@ game.play_game()
 
 my_list = [1, 2, 3]
 index = 3
-if index < len(my_list):
-    print(my_list[index])
-else:
-    print("Įvestas skaičius yra negalimas")
+
 if index < len(my_list):
     print(my_list[index - 1])
 else:
