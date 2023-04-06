@@ -25,7 +25,8 @@ class TicTacToe:
         return any([all(v == self.current_player for v in vals) for vals in all_vals])
 
     def play_game(self):
-        while not self.winner:
+        count = 0
+        while not self.winner and count < 9:
             print(f"Žaidėjas {self.current_player}, įveskite eilutės ir stulpelio nr.nuo 1 iki 3 (su tarpu tarp sk.pvz.: 2 2):")
             try:
                 row, col = [int(x) - 1 for x in input().split()]
@@ -34,17 +35,13 @@ class TicTacToe:
                 continue
             self.make_move(row, col)
             self.print_board()
+            count += 1
 
-        print(f"Žaidėjas {self.winner} laimėjo žaidimą!")
-
+        if self.winner:
+            print(f"Žaidėjas {self.winner} laimėjo žaidimą!")
+        else:
+            print("Lygiosios! Niekas nelaimėjo.")
+        print("Žaidimas baigtas")
 
 game = TicTacToe()
 game.play_game()
-
-my_list = [1, 2, 3]
-index = 3
-
-if index < len(my_list):
-    print(my_list[index - 1])
-else:
-    print("Žaidimas baigtas")
